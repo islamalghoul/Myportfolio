@@ -1,0 +1,55 @@
+.forresumeandworking{
+display: flex;
+width: 65%;
+margin: auto;
+justify-content: space-between;
+margin-top: 8rem;
+
+
+
+}
+.Resume{
+    font-size: 40px;
+    font-weight: 600;
+    width: 65%;
+    margin: auto;
+    margin-top: 7rem;
+}
+.prentfortheworking{
+    
+    display: flex;
+
+    
+}
+.workexperience{
+    font-size: 25px;
+    font-weight: 650;
+
+}
+
+.Teacher{
+    margin-top: 4px;
+    
+    font-weight: 700;
+}
+.pargraphforwork{
+    font-weight:300;
+   
+
+
+}
+.dash{
+    margin-top: 10px;
+
+}
+.aboutthework{
+    line-height: 1.6;
+}
+.contentforexp{
+    display: flex;
+    gap: 10px;
+   width: fit-content;
+}
+.dateforwork{
+    max-width: 300px;
+}

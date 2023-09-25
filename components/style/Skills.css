@@ -1,0 +1,22 @@
+.perntforskills{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto    ;
+    margin-top: 5rem;
+    padding-top:4rem;
+    margin-bottom: 5rem;
+
+}
+.Skills{
+    font-size: 25px;
+    font-weight: 650;
+}
+.fortheskills{
+    width: fit-content;
+    margin-right: 5rem;
+}
+ul{
+    list-style-type: disc;
+    
+}

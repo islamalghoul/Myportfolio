@@ -1,0 +1,32 @@
+h3{
+    font: normal  18px/1.4em  'work sans', sans-serif;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    border-top-width: .01rem ;
+    border-color: rgb(187, 183, 183);
+    padding-top:3rem ;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.githubicon{
+    width: 20px;
+    height: 20px;
+}
+.linkedinicon{
+    width: 20px;
+    height: 20px;
+}
+.copywrite{
+    font-size: 13px;
+}

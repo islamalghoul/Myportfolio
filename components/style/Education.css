@@ -1,0 +1,66 @@
+.line{
+    
+    height: .1px;
+    background-color: rgb(207, 205, 205);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 8rem;
+}
+.education{
+    font-size: 25px;
+    font-weight: 650;
+}
+.parentforeducation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-top:4rem;
+    margin-bottom: 5rem;
+    width: 65%;
+    margin: auto;
+
+    
+}
+
+
+.foralleducations{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+.infoforASACeducation{
+    display: flex;
+    gap :10px;
+    width: fit-content;
+    
+}
+.ASACdate{
+    
+    font-weight:300;
+    width: fit-content;
+}
+.ASAC{
+   
+    
+    font-weight: 700;
+    
+}
+
+.bachelor{
+
+    font-weight: 700;
+}
+p{
+    font-weight:300;
+}
+.ASAC1{
+   
+    
+    font-weight: 700;
+}
+.contantASAC{
+    width: 300px;
+    
+}

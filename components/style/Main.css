@@ -1,0 +1,147 @@
+
+.forimg{
+    background-image: url('/islam1.jpg'); 
+    background-size: cover; 
+    width: 300rem;
+    height: 30rem   ;
+    border-radius: 50%;
+    margin-top: 5.5rem;
+    min-width: 30rem;
+    min-height: 6rem;
+}
+.main{
+    max-width: 100%;
+    margin-left: 20rem;
+    margin-top: 8.7rem;
+    display: flex;
+    gap: 3rem;
+    min-height: 200px;
+    margin-right: 20rem; 
+
+    
+    
+}
+.aboutme{
+    margin-top: 7rem;
+    gap:2rem;
+    line-height: 30px;
+    
+}
+h1{
+    font: normal normal normal 100px/1.4em  'work sans', sans-serif;
+    font-weight: 700;
+    
+
+}
+h4{
+    font: normal  20px/1.4em  'work sans', sans-serif;
+    font-weight: 700;
+
+}
+.contenerForThebuttons{
+    margin-top: 4.5rem;
+    display: flex;
+    gap :1rem;
+    margin-right: 3rem;
+}
+.buttonwithbackgoundYellow{
+    background-color: #eea302;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%; 
+    border:solid  .2px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.buttonwithbackgoundRed{
+    background-color: #ff3b25;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;   
+    border:solid  .2px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.buttonwithbackgoundBlue{
+    background-color:#80d8da;
+    height:9rem;
+    width: 9rem;
+    border-radius: 50%;   
+    border:solid  .2px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.buttonwithbackgoundBlue:hover {
+    background-color: #fefffdfd; 
+    font-weight: bold;
+  }
+.buttonwithbackgoundRed:hover {
+    background-color: #fefffdfd; 
+    font-weight: bold;
+}
+.buttonwithbackgoundYellow:hover {
+    background-color: #fefffdfd; 
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    .forimg {
+        background-image: url('/islam1.jpg');
+        background-size: cover;
+        width: 100%; 
+        padding-top: 100%; 
+        border-radius: 50%;
+    }
+    .main{
+        max-width: 100%;
+      
+        margin-left: 0;
+        display: flex;
+        gap: 1rem;
+        min-height: 200px;
+    }
+    .aboutme{
+        margin-top: 4rem;
+        gap:2rem;
+        
+    }
+    h1{
+        font: normal normal normal 100px/1.4em  'work sans', sans-serif;
+    
+    }
+    h4{
+        font: normal  30px/1.4em  'work sans', sans-serif;
+    
+    }
+    .contenerForThebuttons{
+        margin-top: 3.1rem;
+        display: flex;
+        gap :4rem
+    }
+    .buttonwithbackgoundYellow{
+        background-color: #eea302;
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%; 
+        border:solid  2px;
+    }
+    .buttonwithbackgoundRed{
+        background-color: #ff3b25;
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;   
+        border:solid  2px;
+    
+    }
+    .buttonwithbackgoundBlue{
+        background-color:#80d8da;
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;   
+        border:solid  2px;
+    
+    }
+}
