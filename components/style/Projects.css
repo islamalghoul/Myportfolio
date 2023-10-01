@@ -1,7 +1,7 @@
 .maindevforthewholeproject{
     width:65%;
     margin: auto;
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 .maincontanerforprojects{
     display: flex;
@@ -11,7 +11,7 @@
     
 }
 .projectsimages{
-    width: 500px;
+    width: 400px;
 
 
 }
@@ -29,8 +29,8 @@
     flex-direction: column;
 }
 .projectsimage3{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+   
 }
 .descriptionforprojects{
     width: 80%;

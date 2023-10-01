@@ -17,7 +17,7 @@ export default function Home() {
     <motion.div
       initial={{ opacity: 0 , y:15}}
       animate={{ opacity: 1,y:0 }}
-      transition={{ duration: .5}} // Adjust the duration as needed
+      transition={{ duration: .5}}
     >
     <Main/>
     </motion.div>
